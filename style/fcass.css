@@ -1,0 +1,136 @@
+@font-face {
+  font-family: Bilbo;
+  src: url(../fonts/Bilbo-Regular.ttf);
+}
+
+body {
+  background-color: rgb(232,212,180) !important;
+  font-family: Bilbo;
+}
+
+.buttons {
+  font-family: Bilbo;
+  font-weight: bold;
+  font-size: 80px;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: fit-content;
+  width: fit-content;
+  background: none;
+  border: none;
+  border-radius: 40%;
+  margin-top: 1%;
+  color: rgb(248, 243, 86);
+  text-shadow:
+  -2px -2px 0 rgb(120, 120, 120),
+   0   -2px 0 rgb(120, 120, 120),
+   2px -2px 0 rgb(120, 120, 120),
+   2px  0   0 rgb(120, 120, 120),
+   2px  2px 0 rgb(120, 120, 120),
+   0    2px 0 rgb(120, 120, 120),
+  -2px  2px 0 rgb(120, 120, 120),
+  -2px  0   0 rgb(120, 120, 120);
+}
+
+.buttons:hover {
+  text-shadow:
+  -2px -2px 0 black,
+   0   -2px 0 black,
+   2px -2px 0 black,
+   2px  0   0 black,
+   2px  2px 0 black,
+   0    2px 0 black,
+  -2px  2px 0 black,
+  -2px  0   0 black,
+  -5px -5px 0 white,
+   0   -5px 0 white,
+   5px -5px 0 white,
+   5px  0   0 white,
+   5px  5px 0 white,
+   0    5px 0 white,
+  -5px  5px 0 white,
+  -5px  0   0 white;
+  color: rgb(148, 143, 66);
+}
+
+html, body {
+  height: 100%
+}
+
+.page-flexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logos {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100px;
+  align-items: center;
+}
+
+.contact-image {
+  height: 100px;
+}
+
+.contact-text {
+  color: black;
+  margin: 0;
+  font-size: 15px;
+  width: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.facebook {
+  display: unset;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(205,103,3);
+  height: 150px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 70px;
+}
+
+.images-flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.images {
+  width: 100%;
+}
+
+.gui {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 0 200px;
+  width: 100%;
+  align-items: center;
+}
